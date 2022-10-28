@@ -8,7 +8,9 @@ function Header() {
                 <img src={Logo} alt="Logo" />
             </div>
             <div className='container-input'>
-                <input type="text" placeholder='Buscador' />
+                <input type="text" placeholder='Buscador'>
+                    <img src="" alt="" />
+                </input>
             </div>
             
         </header>
