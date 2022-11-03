@@ -1,15 +1,12 @@
 import Header from "../components/Header";
-import Opciones from "../components/Opciones";
-import Carrusel from "../components/Carrusel";
-
+import Cuerpo from "../components/Cuerpo";
 function Layout() {
-  return (
-    <>
-      <Header />
-      <Opciones />
-      <Carrusel />
-    </>
-  );
+    return ( 
+        <>
+            <Header/>
+            <Cuerpo/>
+        </>
+     );
 }
 
 export default Layout;

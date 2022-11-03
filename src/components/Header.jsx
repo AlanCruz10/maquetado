@@ -1,18 +1,15 @@
-import Logo from '../assets/images/Tazon.png'
+import lo from '../assets/images/lo.png'
 import '../assets/styles/headerStyle.css'
 
 function Header() {
     return ( 
         <header>
             <div className='Logo'>
-                <img src={Logo} alt="Logo" />
+                <img src={lo} alt="Logo" />
             </div>
             <div className='container-input'>
-                <input type="text" placeholder='Buscador'>
-                    <img src="" alt="" />
-                </input>
+                <input type="text" placeholder='Buscador'/>
             </div>
-            
         </header>
      );
 }
